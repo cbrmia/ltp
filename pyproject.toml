@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "ltp-app"
+name = "The LTP App"
 version = "0.1.0"
-description = ""
+description = "This is just a tiny app that does things."
 authors = ["Miyana Stange"]
 readme = "README.md"
 packages = [{include = "ltp_app", from = "src"}]
