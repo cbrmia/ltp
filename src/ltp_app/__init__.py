@@ -1,1 +1,1 @@
-from MyApp import MyApp
+from .MyApp import *

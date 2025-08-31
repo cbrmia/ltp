@@ -9,6 +9,7 @@ packages = [{include = "ltp_app", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.13"
 requests = "^2.32.5"
+pyjwt = "0.4.3"  # something vulnerable
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

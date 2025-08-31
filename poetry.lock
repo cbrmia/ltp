@@ -117,6 +117,18 @@ files = [
 all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2)"]
 
 [[package]]
+name = "pyjwt"
+version = "0.4.3"
+description = "JSON Web Token implementation in Python"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "PyJWT-0.4.3-py2.py3-none-any.whl", hash = "sha256:c74e3f6d3c719c16635eb641ae458eddc7d0e11c69d7829efe309b0b279f2e7b"},
+    {file = "PyJWT-0.4.3.tar.gz", hash = "sha256:d0f1e540a5de324a56970b2390c63ab10a02e384a1faca95d37748ab86ebfd04"},
+]
+
+[[package]]
 name = "requests"
 version = "2.32.5"
 description = "Python HTTP for Humans."
@@ -159,4 +171,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.13"
-content-hash = "54d87e328c16e3b4f95d1d476b87a7fd7b134fea9046ea58c0c3256ff2c79d87"
+content-hash = "5322c8e644af79e1ab0de60cd014ef7959b159837d79015a17d7a299e2c47527"
