@@ -1,5 +1,5 @@
 import argparse, sys
-from .MyApp import MyApp
+from MyApp import MyApp
 
 
 def parse_args(args):
