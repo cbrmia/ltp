@@ -9,4 +9,4 @@ class MyApp:
             self.name = name
 
     def __str__(self):
-        return f"Hello, this is the {self.name} LTP app."
+        return f'Hello, this is the "{self.name}" LTP app.'
