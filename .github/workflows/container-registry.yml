@@ -3,6 +3,7 @@ name: Create and publish image to GHCR
 
 # Everytime a new version tag is pushed
 on:
+  workflow_dispatch:
   push:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+'
